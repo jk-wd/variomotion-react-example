@@ -1,0 +1,5 @@
+{
+  "animationFiles": {
+    "variomotion-site": "./src/animation.json"
+  }
+}
