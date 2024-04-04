@@ -10,7 +10,7 @@
     "@types/node": "^16.18.91",
     "@types/react": "^18.2.73",
     "@types/react-dom": "^18.2.22",
-    "@variomotion/core": "^1.0.0-beta.19",
+    "@variomotion/core": "^1.0.0-beta.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -42,7 +42,7 @@
     ]
   },
   "devDependencies": {
-    "@variomotion/editor": "^1.0.0-beta.19",
-    "@variomotion/editor-connect": "^1.0.0-beta.19"
+    "@variomotion/editor": "^1.0.0-beta.21",
+    "@variomotion/editor-connect": "^1.0.0-beta.21"
   }
 }
