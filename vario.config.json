@@ -1,5 +1,5 @@
 {
   "animationFiles": {
-    "variomotion-site": "./src/animation.json"
+    "variomotion-react-example": "./src/animation.json"
   }
 }

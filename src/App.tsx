@@ -1,5 +1,4 @@
 import { useEffect } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 // Import the variomotion package
@@ -10,7 +9,7 @@ import animationData from "./animation.json";
 
 // Create a project
 const { project: varioProject, target } =
-  variomotion.project("variomotion-site");
+  variomotion.project("variomotion-react-example");
 
 function App() {
     useEffect(() => {
@@ -32,26 +31,11 @@ function App() {
     }, []);
 
   return (
-    <div className="App">
-      <header className="App-header">
-        {/* Expose the image for animation using the data-v attribute  */}
-        <div data-v={target("logo")}>
-          <img src={logo} className="App-logo" alt="logo" />
-        </div>
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+	    <div data-v={target('circle')} className="cricle"></div>
+    </main>
   );
 }
+
 
 export default App;
